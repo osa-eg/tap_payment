@@ -1,0 +1,24 @@
+{
+    "name": "osa-eg/tap_payment",
+    "description": "laravel tap payment package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "OsaEg\\TapPayment\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Osama Saad",
+            "email": "osaad96eg@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "illuminate/support": "10.*"
+    }
+}
