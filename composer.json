@@ -20,5 +20,12 @@
         "ext-curl": "*",
         "ext-json": "*",
         "illuminate/support": "10.*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "OsaEg\\TapPayment\\TapServiceProvider"
+            ]
+        }
     }
 }
